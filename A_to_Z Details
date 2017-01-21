@@ -1,0 +1,9 @@
+This is an ETL prototype on:
+
+1. How you can split a web URL into different levels
+example: https://github.com/d-hong0237/python
+Level A = github.com
+Level B = d-hong0237
+Level C = python
+
+2. How you can create a batch load loop process from a dataframe to MySQL.
