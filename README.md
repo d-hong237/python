@@ -6,4 +6,6 @@ Facebook hashtag count - Extracted status updates from Facebook's Graph API into
 
 Web Scraping example - Used BeautifulSoup to extract HTML code from ESPN and loaded top 25 teams stats into MySQL using pandas and pymysql.
 
-Python UDF for Redshift to calculate weighted standard deviation between the observation and frequency variables.
+Send email example - Trigger email after script completes successfully or errors out.
+
+Redshift Python UDF - Calculate weighted standard deviation between the observation and frequency variables.
