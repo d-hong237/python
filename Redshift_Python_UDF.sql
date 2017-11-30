@@ -31,7 +31,7 @@ ABC           6         5
 ABC           7         1
 
 
-Observation: [5,6,7]  
+Obs: [5,6,7]  
 Freq: [3,5,1]
 
 Weighted Standard Deviation = [5,5,5,6,6,6,6,6,7] 
@@ -40,7 +40,7 @@ Weighted Standard Deviation = [5,5,5,6,6,6,6,6,7]
  
 select
 vendor_code,
-udf_weight_std_dev( LISTAGG(tilt, ','), LISTAGG(quantity_unpacked,',') ) as weighted_std_dev
+udf_weight_std_dev( LISTAGG(Obs, ','), LISTAGG(Freq,',') ) as weighted_std_dev
 from sample
 group by 1;
 '''
