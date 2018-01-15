@@ -9,3 +9,5 @@ Web Scraping example - Used BeautifulSoup to extract HTML code from ESPN and loa
 Send email example - Trigger email after script completes successfully or errors out.
 
 Redshift Python UDF - Calculate weighted standard deviation between the observation and frequency variables.
+
+Get Timezone API - Geonames provides timezone around the world. Extracted info with latitude and longitude parameters. 
